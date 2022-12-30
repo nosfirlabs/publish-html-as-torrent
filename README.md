@@ -31,3 +31,8 @@ The API will be available at `http://localhost:8000`.
 -   `GET /sites/{site_id}`: Get the information for a specific published HTML site, identified by its ID.
     
 -   `DELETE /sites/{site_id}`: Delete a published HTML site, identified by its ID.
+
+### Notes
+
+The `/sites` endpoint returns a list of all published HTML sites, along with their torrent files and any other relevant information. The `/sites/{site_id}` endpoint returns the information for a specific published HTML site, identified by its ID. The `/sites/{site_id}` endpoint deletes a published HTML site, identified by its ID.
+
